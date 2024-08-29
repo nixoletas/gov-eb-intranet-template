@@ -137,6 +137,9 @@ os componentes fica em /src/app/components
 diversos componentes possuem services que estão usando uma API disponibilizada internamente com Strapi, uma plataforma de criação de APIs. Também conhecido como Headless CMS.
 Também não irá funcionar componentes que consomem um link de markdown que é do servidor de assets. Ambos esses modelos de servidor são rodados separadamente da intranet.
 
-esse modelos encontram-se nos seguintes repositórios (modelos):
+esse modelos encontram-se nos seguintes repositórios:
 - ASSETS: https://github.com/nixoletas/govbr-assets-server.git
 - STRAPI: https://github.com/nixoletas/strapi-template-intranet.git
+
+Suba os serviços em servidores separados e sempre na porta 80 para não enfrentar problemas caso acesse pela VPN
+Após subir ainda é necessário publicar seu conteúdo para aparecer na intranet
