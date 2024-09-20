@@ -40,7 +40,7 @@ import { Ciac2Component } from './pages/ciac2/ciac2.component';
 export const routes: Routes = [
     {
       path: '',
-      component: HomeComponent,
+      component: Ciac2Component,
     },
     {
       path: 'home',
