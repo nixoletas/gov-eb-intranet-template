@@ -193,10 +193,3 @@ Após subir ainda é necessário publicar seu conteúdo para aparecer na intrane
 
 ### Ponto importante! utilização do Markdown
 Use o componente "ramais" como modelo para criação de rotas que consomem um markdown. No caso de /ramais o Markdown é consumido de /public mas você pode criar um servidor separado para servir o markdown. No nosso ambiente de produção na OM, o Strapi permite criação de Markdowns e o front consome dele. 
-
-contate-nos!
-
-STI VoIP
-```
-890-5718
-```
