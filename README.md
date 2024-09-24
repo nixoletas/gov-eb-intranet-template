@@ -188,3 +188,8 @@ esse modelos encontram-se nos seguintes repositórios:
 
 Suba os serviços em servidores separados e sempre na porta 80 para não enfrentar problemas caso acesse pela VPN
 Após subir ainda é necessário publicar seu conteúdo para aparecer na intranet
+
+----
+
+### Ponto importante! utilização do Markdown
+Use o componente "ramais" como modelo para criação de rotas que consomem um markdown. No caso de /ramais o Markdown é consumido de /public mas você pode criar um servidor separado para servir o markdown. No nosso ambiente de produção na OM, o Strapi permite criação de Markdowns e o front consome dele. 
