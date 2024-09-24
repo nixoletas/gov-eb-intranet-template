@@ -44,6 +44,8 @@ caso já tiver uma instância rodando, é necessário terminá-la e iniciar de n
 docker compose down -v && docker compose up -d
 ```
 
+---
+
 ### rotas da aplicação
 as rotas ficam disponíveis em "app.routes.ts" na pasta /src
 ``` javascript
