@@ -13,7 +13,7 @@ import { MarkdownModule } from 'ngx-markdown';
 export class RamaisComponent {
   public markdownSrc: string;
   constructor() {
-    this.markdownSrc = `${environment.ASSETS_MD}/ramais.md`
+    this.markdownSrc = `ramais.md`
   }
 
 }
