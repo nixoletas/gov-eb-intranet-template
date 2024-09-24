@@ -1,6 +1,9 @@
 # Nova intranet do btl - Modelo govbr (desenvolvido em Angular)
 #### modelo [gov.br/ds](https://www.gov.br/ds/home)
 
+#### por que Angular e não Joomla?
+Esse projeto foi desenvolvido fugindo um pouco do padrão de adoção atual do Exército que é Joomla. A idéia principal foi fazer uma transição que não distoasse da intranet antiga e não deixasse os usuários "perdidos" na nova interface. Aproveitando os novos aprendizados e o quickstart angular do próprio repositório do [govbr-ds-quickstart-angular](https://gitlab.com/govbr-ds/bibliotecas/javascript/govbr-ds-quickstart-angular.git) comecei a desenvolver esse projeto. Quando vi que tinha um app quase cosolidado, resolvi subir a nova intranet. 
+
 ### rodar projeto
 instalar dependências
 ```
