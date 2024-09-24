@@ -17,7 +17,6 @@ export class LinksService {
   ];
 
   systems: Link[] = [
-    
   ];
 
   intranets: Link[] = [

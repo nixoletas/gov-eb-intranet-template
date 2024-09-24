@@ -24,7 +24,7 @@ export class BrHeaderComponent {
   }
 
   public image = {
-    src: `${environment.ASSETS_PICS}/logo9bcom2.png`,
+    src: `https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/rede-nacional-de-governo-digital/10passos/biblioteca/logo-govbr.png`,
     alt: '9º B Com GE',
   }
 
@@ -40,24 +40,6 @@ export class BrHeaderComponent {
       name: '9ª RM',
       target: '_blank',
       title: '9RM',
-    },
-    {
-      href: 'http://intranet.badmapcmo.eb.mil.br',
-      name: 'B Adm Ap/CMO',
-      target: '_blank',
-      title: '9 RM',
-    },
-    {
-      href: 'http://hmilacg.eb.mil.br',
-      name: 'H Mil A CG',
-      target: '_blank',
-      title: 'H Mil',
-    },
-    {
-      href: 'https://marcacao-consulta.eb.mil.br/#/login',
-      name: 'Marcação de consulta',
-      target: '_blank',
-      title: 'pergaminho',
     },
     {
       href: 'http://pergaminho.eb.mil.br/',
