@@ -1,5 +1,5 @@
-# Nova intranet do btl - Intranet 2.0
-modelo [gov.br/ds](https://www.gov.br/ds/home)
+# Nova intranet do btl - Modelo govbr (desenvolvido em Angular)
+#### modelo [gov.br/ds](https://www.gov.br/ds/home)
 
 ### rodar projeto
 instalar dependências
