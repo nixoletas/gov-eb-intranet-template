@@ -1,5 +1,5 @@
 ## Nova Intranet - Modelo [govbr](https://www.gov.br/ds/home)
-#### Desenvolvido em Angular
+#### Desenvolvido em [Angular](https://angular.dev/)
 
 ### Por que Angular e não Joomla?
 
