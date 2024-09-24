@@ -190,6 +190,10 @@ Suba os serviços em servidores separados e sempre na porta 80 para não enfrent
 Após subir ainda é necessário publicar seu conteúdo para aparecer na intranet
 
 ----
+## Pontos importantes!
 
-### Ponto importante! utilização do Markdown
+### utilização do Markdown
 Use o componente "ramais" como modelo para criação de rotas que consomem um markdown. No caso de /ramais o Markdown é consumido de /public mas você pode criar um servidor separado para servir o markdown. No nosso ambiente de produção na OM, o Strapi permite criação de Markdowns e o front consome dele. 
+
+### Firewall do EB e VPN
+Ao tentar rodar seu projeto, talvez os ícones do font-awesome e a fonte rawline não funcionem pois estão em uma rede externa. Para saber como servir esses assets localmente e evitar bloqueios de firewall, veja o repositório acima de ASSETS.
