@@ -17,7 +17,7 @@ clonar este repositório
 git clone https://github.com/nixoletas/gov-eb-intranet-template.git
 ```
 
-#### ambiente de desenvolvimento
+#### ambiente de **DESENVOLVIMENTO**
 
 instalar dependências
 ```
@@ -29,7 +29,7 @@ subir servidor local para desenvolvimento
 npm run start
 ```
 
-#### ambiente de produção
+#### ambiente de **PRODUÇÃO**
 
 fazer build do projeto, criar a pasta "/dist"
 ```
