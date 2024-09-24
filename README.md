@@ -3,7 +3,27 @@
 
 ### Por que Angular e não Joomla?
 
-Este projeto foi desenvolvido fugindo um pouco do padrão de adoção atual do Exército que é Joomla. Apesar de Joomla ser um CMS com uma certa maturidade, não é uma ferramenta simples de utilizar e às vezes uma página simples acaba ficando muito complexa. Angular é um framework maduro e permite a criação de Single-Page Application (SPA), e o principal gargalo da intranet antiga era esperar milênios para navegar entre rotas. Um framework que consegue lidar com essas rotas de maneira eficaz melhorou em muito a experiência do usuários. A idéia principal foi fazer uma transição que não distoasse da intranet antiga e não deixasse os usuários "perdidos" na nova interface. Aproveitando os novos aprendizados e o quickstart angular do próprio repositório do [govbr-ds-quickstart-angular](https://gitlab.com/govbr-ds/bibliotecas/javascript/govbr-ds-quickstart-angular.git) comecei a desenvolver esse projeto. Quando vi que tinha um app quase cosolidado, resolvi subir a nova intranet. 
+Este projeto foi desenvolvido fugindo um pouco do padrão de adoção atual do Exército que é Joomla. Apesar de Joomla ser um CMS com uma certa maturidade, não é uma ferramenta simples de utilizar e às vezes uma página simples acaba ficando muito complexa.
+
+#### Single-Page Application
+Angular é um framework maduro e permite a criação de Single-Page Application (SPA), e o principal gargalo da intranet antiga era esperar milênios para navegar entre rotas. Um framework que consegue lidar com essas rotas de maneira eficaz melhorou em muito a experiência do usuários. 
+
+#### Angular CLI
+A CLI do Angular agiliza o trabalho do desenvolvedor, criando componentes, serviços e pipes de maneira muito simples e veloz.
+
+criar novo componente
+```
+ng g c nome-do-componente
+```
+
+criar novo service
+```
+ng g s nome-do-servico
+```
+
+### Como atuei
+
+A idéia principal foi fazer uma transição que não distoasse da intranet antiga e não deixasse os usuários "perdidos" na nova interface. Aproveitando os novos aprendizados e o quickstart angular do próprio repositório do [govbr-ds-quickstart-angular](https://gitlab.com/govbr-ds/bibliotecas/javascript/govbr-ds-quickstart-angular.git) comecei a desenvolver esse projeto. Quando vi que tinha um app quase cosolidado, resolvi subir a nova intranet. 
 
 A nova interface atualmente funciona com outros dois servidores, um de assets e um strapi para criação de matérias, carossel, pop-up, e outras mídias. O modelo foi bem recebido e pude implementar diversas outras funcionalidades como: abertura de chamados online, livro de viagem, modal de aniversariantes, exibição de temperatura e umidade.
 Este projeto não contém todas as funcionalidade do projeto que está rodando na OM, para saber não hesite em entrar em contato nas redes sociais.
