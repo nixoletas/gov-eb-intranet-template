@@ -17,7 +17,7 @@ interface FooterSection {
 export class BrFooterComponent {
 
   public image = {
-    src: `${environment.ASSETS_PICS}/logo_eb.png`,
+    src: `https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/rede-nacional-de-governo-digital/10passos/biblioteca/logo-govbr.png`,
     alt: 'Logo EB',
   }
 
