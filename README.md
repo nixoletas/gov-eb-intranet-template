@@ -7,18 +7,32 @@ Este projeto foi desenvolvido fugindo um pouco do padrão de adoção atual do E
 A nova interface atualmente funciona com outros dois servidores, um de assets e um strapi para criação de matérias, carossel, pop-up, e outras mídias. O modelo foi bem recebido e pude implementar diversas outras funcionalidades como: abertura de chamados online, livro de viagem, modal de aniversariantes, exibição de temperatura e umidade.
 Este projeto não contém todas as funcionalidade do projeto que está rodando na OM, para saber não hesite em entrar em contato nas redes sociais.
 
-### rodar projeto
+### subir instância de desenvolvimento
+clonar este repositório
+```
+git clone https://github.com/nixoletas/gov-eb-intranet-template.git
+```
+
+#### ambiente de desenvolvimento
+
 instalar dependências
 ```
 npm i
 ```
 
-fazer build do projeto, criando assim a pasta "/dist"
+subir servidor local para desenvolvimento
+```
+npm run start
+```
+
+#### rodar projeto em produção
+
+fazer build do projeto, criar a pasta "/dist"
 ```
 npm run build
 ```
 
-rodar o projeto na porta 80
+rodar o projeto na porta 80 (altere a porta nos arquivos docker caso necessário)
 ```
 docker compose up -d
 ```
