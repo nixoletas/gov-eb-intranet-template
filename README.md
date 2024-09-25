@@ -4,11 +4,11 @@
 
 Este projeto foi desenvolvido fugindo um pouco do padrão de adoção atual do Exército que é Joomla. Apesar de Joomla ser um CMS com uma certa maturidade, não é uma ferramenta simples de utilizar e às vezes uma página simples acaba ficando muito complexa.
 
-### Single-Page Application
+## Single-Page Application
 
 Angular é um framework maduro e permite a criação de Single-Page Application (SPA), e o principal gargalo da intranet antiga era esperar milênios para navegar entre rotas. Um framework que consegue lidar com essas rotas de maneira eficaz melhorou em muito a experiência do usuários. 
 
-### Angular CLI
+## Angular CLI
 
 A CLI do Angular agiliza o trabalho do desenvolvedor, criando componentes, serviços e pipes de maneira muito simples e veloz.
 
@@ -22,7 +22,7 @@ criar novo service
 ng g s nome-do-servico
 ```
 
-### Como atuei
+## Como foi implementado
 
 A idéia principal foi fazer uma transição que não distoasse da intranet antiga e não deixasse os usuários "perdidos" na nova interface. Aproveitando os novos aprendizados e o quickstart angular do próprio repositório do [govbr-ds-quickstart-angular](https://gitlab.com/govbr-ds/bibliotecas/javascript/govbr-ds-quickstart-angular.git) comecei a desenvolver esse projeto. Quando vi que tinha um app quase cosolidado, resolvi subir a nova intranet. 
 
@@ -31,13 +31,14 @@ Este projeto não contém todas as funcionalidade do projeto que está rodando n
 
 ---
 
-### comece a trabalhar no projeto!
+## comece a trabalhar no projeto!
+
 clonar este repositório
 ```
 git clone https://github.com/nixoletas/gov-eb-intranet-template.git
 ```
 
-#### **DESENVOLVIMENTO**
+### **DESENVOLVIMENTO**
 
 instalar dependências
 ```
@@ -49,7 +50,7 @@ subir servidor local para desenvolvimento
 npm run start
 ```
 
-#### **PRODUÇÃO**
+### **PRODUÇÃO**
 
 fazer build do projeto, criar a pasta "/dist"
 ```
@@ -68,7 +69,8 @@ docker compose down -v && docker compose up -d
 
 ---
 
-### rotas da aplicação
+## rotas da aplicação
+
 as rotas ficam disponíveis em "app.routes.ts" na pasta /src
 ``` javascript
 {
@@ -161,8 +163,9 @@ as rotas ficam disponíveis em "app.routes.ts" na pasta /src
     { path: '**', redirectTo: 'home' }
 ```
 
-### componentes
-os componentes fica em /src/app/components
+## componentes
+
+os componentes ficam em /src/app/components
 
 - aniversariantes	
 - button-balloon
@@ -179,7 +182,8 @@ os componentes fica em /src/app/components
 - tab
 
 
-### componentes que não irão funcionar
+## componentes que não irão funcionar
+
 diversos componentes possuem services que estão usando uma API disponibilizada internamente com Strapi, uma plataforma de criação de APIs. Também conhecido como Headless CMS.
 Também não irá funcionar componentes que consomem um link de markdown que é do servidor de assets. Ambos esses modelos de servidor são rodados separadamente da intranet.
 
