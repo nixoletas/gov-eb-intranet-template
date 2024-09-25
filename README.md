@@ -2,7 +2,7 @@
 #### Desenvolvido em [Angular](https://angular.dev/)
 
 ### Por que Angular e não Joomla?
-
+----
 Este projeto foi desenvolvido fugindo um pouco do padrão de adoção atual do Exército que é Joomla. Apesar de Joomla ser um CMS com uma certa maturidade, não é uma ferramenta simples de utilizar e às vezes uma página simples acaba ficando muito complexa.
 
 #### Single-Page Application
