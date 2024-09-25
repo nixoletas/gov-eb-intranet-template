@@ -1,14 +1,16 @@
 ## Nova Intranet - Modelo [govbr](https://www.gov.br/ds/home)
 #### Desenvolvido em [Angular](https://angular.dev/)
 
-### Por que Angular e não Joomla?
---------
+## Por que Angular e não Joomla?
+
 Este projeto foi desenvolvido fugindo um pouco do padrão de adoção atual do Exército que é Joomla. Apesar de Joomla ser um CMS com uma certa maturidade, não é uma ferramenta simples de utilizar e às vezes uma página simples acaba ficando muito complexa.
 
-#### Single-Page Application
+### Single-Page Application
+
 Angular é um framework maduro e permite a criação de Single-Page Application (SPA), e o principal gargalo da intranet antiga era esperar milênios para navegar entre rotas. Um framework que consegue lidar com essas rotas de maneira eficaz melhorou em muito a experiência do usuários. 
 
-#### Angular CLI
+### Angular CLI
+
 A CLI do Angular agiliza o trabalho do desenvolvedor, criando componentes, serviços e pipes de maneira muito simples e veloz.
 
 criar novo componente
