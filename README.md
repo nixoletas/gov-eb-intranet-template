@@ -190,7 +190,6 @@ esse modelos encontram-se nos seguintes repositórios:
 Suba os serviços em servidores separados e sempre na porta 80 para não enfrentar problemas caso acesse pela VPN
 Após subir ainda é necessário publicar seu conteúdo para aparecer na intranet
 
-----
 ## Pontos importantes!
 
 ### utilização do Markdown
